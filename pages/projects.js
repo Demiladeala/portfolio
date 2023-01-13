@@ -4,7 +4,7 @@ import Link from "next/link";
 import Projectscard from "../components/Projectscard";
 import Card from "../components/Card";
 
-const Projects = ({props}) => {
+const Projects = (props) => {
     const cards = projectscard.map(item =>{
         return(
             <Card 
