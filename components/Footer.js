@@ -4,7 +4,7 @@ import {AiFillGithub} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
 import {AiOutlineTwitter} from 'react-icons/ai'
 
-const footer = () => {
+const Footer = () => {
     const d = new Date();
     let year = d.getFullYear();
     return ( 
@@ -31,7 +31,7 @@ const footer = () => {
      );
 }
  
-export default footer;
+export default Footer;
 
 /*
 <a><AiFillGithub size={25}/></a>
