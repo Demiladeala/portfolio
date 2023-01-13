@@ -4,7 +4,7 @@ export default [
         image:'/topicals-clone.webp',
         name: 'topicals-clone',
         description: 'E-commerce website',
-        logo: '/next.svg', '/react.svg',
+        logo: '/next.svg', 
         language: 'Next js, React, Tailwind css'
     },
     {
