@@ -1,18 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion} from 'framer-motion';
 import { useState } from 'react';
-import htmlImg from '../public/html.svg'
-import cssImg from '../public/css.svg'
-import githubImg from '../public/github.svg'
-import javascriptImg from '../public/javascript.svg'
-import reactImg from '../public/react.svg'
-import nextImg from '../public/next.svg'
-import framerImg from '../public/framer-motion.svg'
-import tailwindImg from '../public/tailwindcss.svg'
-import codewarsImg from '../public/codewars.svg'
-import typescriptImg from '../public/typescript.svg'
+
 
 const Card = (props) => {
 
