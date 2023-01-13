@@ -3,9 +3,11 @@ import Head from "next/head";
 import Link from "next/link";
 import Projectscard from "../components/Projectscard";
 import Card from "../components/Card";
+import React from 'react';
 
 const Projects = (props) => {
-    const cards = projectscard.map(item =>{
+    
+    const cards = Projectscard.map(item =>{
         return(
             <Card 
               key ={item.id}
@@ -24,10 +26,6 @@ const Projects = (props) => {
 
     return ( 
         <div>
-            <header>
-                <title>Oluwademilade Ala - Portfolio</title>
-                <link rel='icon' href='favicon.ico'/>
-            </header>
           <section className="text-white  items-center justify-center">
                 <div className="text-white">
                     <h1 className="text-center italic text-xl mt-12 mb-8">{projectName}</h1>
