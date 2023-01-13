@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import projectscard from "../components/projectscard";
-import Card from "../components/card";
+import Projectscard from "../components/Projectscard";
+import Card from "../components/Card";
 
 const Projects = ({props}) => {
     const cards = projectscard.map(item =>{
